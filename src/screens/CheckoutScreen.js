@@ -30,7 +30,7 @@ const CheckoutScreen = ({ navigation }) => {
     };
 
     const handlePlaceOrder = async () => {
-        // Basic validation
+
         if (!form.name || !form.email || !form.address || !form.phone) {
             Alert.alert('Error', 'Please fill in all required fields');
             return;
@@ -38,7 +38,7 @@ const CheckoutScreen = ({ navigation }) => {
 
         setLoading(true);
 
-        // Simulate API call
+
         setTimeout(() => {
             setLoading(false);
             clearCart();
