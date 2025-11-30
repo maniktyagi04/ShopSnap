@@ -15,10 +15,10 @@ const LoginScreen = ({ navigation, onLogin }) => {
             return;
         }
         setLoading(true);
-        // Simulate API call
+
         setTimeout(() => {
             setLoading(false);
-            onLogin(); // Call parent handler to switch to main app
+            onLogin(); 
         }, 1500);
     };
 
