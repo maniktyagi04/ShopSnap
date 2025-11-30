@@ -1,11 +1,11 @@
 export const COLORS = {
-  primary: '#1A1A1A', // Jet Black
-  secondary: '#757575', // Grey
-  accent: '#E63946', // Red Accent
-  background: '#F8F9FA', // Off White
-  surface: '#FFFFFF', // Pure White
-  error: '#D32F2F', // Red
-  success: '#388E3C', // Green
+  primary: '#1A1A1A', 
+  secondary: '#757575', 
+  accent: '#E63946', 
+  background: '#F8F9FA', 
+  surface: '#FFFFFF', 
+  error: '#D32F2F',
+  success: '#388E3C', 
   text: '#212121',
   textLight: '#9E9E9E',
   border: '#EEEEEE',
