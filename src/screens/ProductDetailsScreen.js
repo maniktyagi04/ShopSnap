@@ -44,7 +44,7 @@ const ProductDetailsScreen = ({ route, navigation }) => {
             selectedSize,
             selectedColor,
         });
-        // Optional: Show feedback
+    
     };
 
     return (
@@ -218,7 +218,7 @@ const styles = StyleSheet.create({
         padding: SPACING.l,
         borderTopWidth: 1,
         borderTopColor: COLORS.border,
-        paddingBottom: SPACING.xl, // For iPhone X+ home indicator
+        paddingBottom: SPACING.xl,
     },
     addToCartButton: {
         width: '100%',
